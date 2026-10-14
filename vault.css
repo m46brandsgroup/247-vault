@@ -1,0 +1,8 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #08090d; }
+#stage { position: relative; width: 100%; height: 100svh; overflow: hidden; }
+.vault-canvas, .loading-canvas { display: block; position: absolute; inset: 0; width: 100%; height: 100%; touch-action: manipulation; }
+.loading-canvas { z-index: 2; }
+.vault-canvas:focus { outline: none; }
+.vault-canvas:focus-visible { outline: 1px solid #b68bdd55; outline-offset: -3px; }
